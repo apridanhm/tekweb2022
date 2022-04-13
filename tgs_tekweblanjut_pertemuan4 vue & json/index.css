@@ -1,0 +1,42 @@
+article{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.porto{
+    text-indent: 30px;
+    margin-top: 30px;
+    color: #051E2F;
+    font-style:normal;
+    text-align: center;;
+}
+.cover .social a {
+    color: white;
+}
+
+nav {
+    background-color: #051E2F;
+}
+
+.footer {
+    background-color: #051E2F;
+
+}
+
+footer {
+    color: white;
+
+}
+
+.judul {
+    text-align: center;
+    color: #051E2F;
+}
+
+
+
+
+
+
