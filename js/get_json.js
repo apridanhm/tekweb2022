@@ -9,9 +9,7 @@ Vue.createApp({
       getArticle()
       {
         axios
-          .get(
-            src="../json/artikel.json"
-            )
+          .get('https://raw.githubusercontent.com/apridanhm/tekweb2022/master/json/artikel.json')
           .then((res) => {
             console.log(res.data); //melihat respon data pada console browser
             this.artikel = res.data; //memperbarui variabel article pada bagian data()
