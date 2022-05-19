@@ -1,0 +1,39 @@
+[
+    {
+        "title":"Metaverse",
+        "description": "Bagian Internet dari realitas virtual bersama yang dibuat semirip mungkin dengan dunia nyata dalam dunia internet tahap kedua",
+        "thumbnail": "https://assets.promediateknologi.com/crop/0x0:0x0/x/photo/2021/12/23/214583470.jpg",
+        "content": "artikel1.md"
+    },
+    {
+        "title":"Cryptocurrency",
+        "description": "Mata uang digital yang berarti hanya berlaku di jaringan komputer",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmnBd7tUsuB7pBrM753VP1Pw5Xm6bdbL7vPD4knYR61WOinh7lcWHGwhA0MIarrk7qi_4&usqp=CAU",
+        "content": "artikel2.md"
+    },
+    {
+        "title":"Intel Vs AMD",
+        "description": "Dua produsen besar prosessor komputer",
+        "thumbnail": "https://hexatekno.com/wp-content/uploads/2019/09/maxresdefault.jpg",
+        "content": "artikel3.md"
+    },
+    {
+        "title":"Yamaha R1M",
+        "description": "Motor 1000cc bermesin crossplane copy motor GP Yamha M1 tunggangan Valentino Rosi",
+        "thumbnail": "https://pictures.topspeed.com/IMG/crop_webp/201909/2020-yamaha-yzf-r1m-19_1920x1080.webp",
+        "content": "artikel4.md"
+    },
+    {
+        "title":"Mandalika International Street Circuit",
+        "description": "Circuit yang indah pinggir pantai di Lombok Nusa Tenggara Barat",
+        "thumbnail": "https://www.roadracingworld.com/wp-content/uploads/2022/02/Mandalika-International-Street-Circuit.-Photo-courtesy-Dorna._1644515338.jpg",
+        "content": "artikel5.md"
+    },
+    {
+        "title":"Sunmori",
+        "description": "Sunday morning ride, berkendara pada minggu pagi, kegiatan yang menyenangkan bareng teman-teman",
+        "thumbnail": "./gambar/sunmori.jpg",
+        "content": "artikel6.md"
+    }
+   
+]

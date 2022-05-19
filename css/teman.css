@@ -1,0 +1,9 @@
+img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+img:hover {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #e7ff36;
+}
