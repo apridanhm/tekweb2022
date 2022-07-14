@@ -21,6 +21,6 @@ Vue.createApp({
       }
     },
     beforeMount() {
-      this.getHeaderData() //eksekusi fungsi getArticles() pada bagian methods saat halaman terbuka
+      this.getHeaderData() //esksekusi fungsi getArticles() pada bagian methods saat halaman terbuka
     },
   }).mount("#app");
