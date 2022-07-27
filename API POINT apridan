@@ -236,6 +236,91 @@ false   // if failure
 
 
 
+### Teman
+
+#### Menampilkan data Teman
+
+
+GET: /teman
+
+response:
+[
+    {
+        "id"            : "",
+        "nama"          : "",
+        "ig"          : "",
+        "ig_url"           : "",
+        "foto"           : "",
+    },
+    ...
+]
+
+
+#### Menampilkan data user dengan `id` tertentu
+
+
+GET: /teman/[id]
+
+reponse:
+{
+        "id"            : "",
+        "nama"          : "",
+        "ig"          : "",
+        "ig_url"           : "",
+        "foto"           : "",
+}
+
+
+#### Menambahkan data pengguna
+
+
+POST: /teman
+
+data:
+{
+        "id"            : "",
+        "nama"          : "",
+        "ig"          : "",
+        "ig_url"           : "",
+        "foto"           : "",
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+#### Edit data teman
+
+
+PUT: /teman
+
+data:
+{
+        "id"            : "",
+        "nama"          : "",
+        "ig"          : "",
+        "ig_url"           : "",
+        "foto"           : "",
+}
+
+response:
+true    // if success
+false   // if failure
+
+
+
+#### Menghapus data teman
+
+
+DELETE: /teman/[id]
+
+response:
+true    // if success
+false   // if failure
+
+
+
 
 
 
@@ -258,7 +343,7 @@ classDiagram
         + updateUser()
         + createUser()
         + deleteUser()
-    }
+    },
     class Portfolio{
         # id: int;
         + namaporto: string
@@ -270,16 +355,29 @@ classDiagram
         + updatePortfolio()
         + createPortfolio()
         + deletePortfolio()
-    }
+    },
     class Artikel{
         # id: int,
         + namaartikel: string
         + des: string
-        + foto: int
+        + foto: string
         + getAllArticle()
         + getArticleById()
         + getArticlesByAuthor()
         + updateArticle()
         + createArticle()
         + deleteArticle()
-    }
+    },
+    class Teman{
+        # id: int,
+        + nama: string
+        + ig: string
+        + ig_url: string
+        + foto: string
+        + getAllTeman()
+        + getTemanById()
+        + getTemanByAuthor()
+        + updateTeman()
+        + createTeman()
+        + deleteTeman()
+    },
